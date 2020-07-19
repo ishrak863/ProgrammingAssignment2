@@ -1,7 +1,7 @@
 ## My First function caches the inverse of a matrix 
 ## My Second function takes a matrix and calculates its inverse
 
-## Takes the matrix and caches the inverse of a matrix
+## Takes a matrix and caches the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Calculates the inverse of the matrix from cache
+## Calculates the inverse of the matrix from cache and gives the inverse as output
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
