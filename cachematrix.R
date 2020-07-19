@@ -18,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Calculates the inverse of the matrix from cache and gives the inverse as output
+## Checks whether the inverse is already stored in cache. If not then calculates the inverse
+# if the inverse is already cached then shows the cached inverse matrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
